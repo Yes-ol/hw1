@@ -19,10 +19,10 @@ class MyApp extends StatelessWidget {
           child: Icon(Icons.add, color: Colors.white),
         ),
         appBar: AppBar(
-          backgroundColor: Colors.orange,
+          backgroundColor: Colors.white,
           leading: const Padding(
             padding: EdgeInsets.all(15),
-            child: Text('당근', style: TextStyle(color: Colors.white, fontSize: 12),)
+            child: Text('당근', style: TextStyle(color: Colors.black, fontSize: 12),)
           ),
           actions: [
             IconButton(onPressed: () {}, icon: Icon(Icons.shopping_cart, color: Colors.black,),),
